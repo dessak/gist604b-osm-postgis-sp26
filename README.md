@@ -12,7 +12,7 @@ Repository for working with OSM spatial data using PostgreSQL and PostGIS.
 ├── notebooks/  
 │   ├── setup_osm_postgis.ipynb  
 │   ├── osm_postgis_queries.ipynb  
-│   └── osm_postgis_YOUR_AOI_NAME.ipynb  
+│   └── osm_postgis_oregon.ipynb  
 ├── sql/  
 │   ├── arizona/  
 │   │   ├── 01_osm_restaurant_distribution.sql  
