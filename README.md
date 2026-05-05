@@ -21,7 +21,7 @@ Repository for working with OSM spatial data using PostgreSQL and PostGIS.
 │   │   ├── 04_osm_railway_density_by_county.sql  
 │   │   └── 05_osm_county_amenity_synthesis.sql  
 │   └── oregon/  
-│       ├── 01_osm_transport_distribution.sql 
+│       ├── 01_osm_transport_distribution.sql  
 │       ├── 02_osm_road_length_by_county.sql  
 │       └── 03_osm_public_transport_density_by_county.sql  
 ├── src/  
