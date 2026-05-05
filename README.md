@@ -4,26 +4,32 @@ Repository for working with OSM spatial data using PostgreSQL and PostGIS.
 
 ## Repository Structure
 
-    .
-    ├── .devcontainer/
-    │   ├── Dockerfile
-    │   └── devcontainer.json
-    ├── notebooks/
-    │   ├── setup_osm_postgis.ipynb
-    │   └── osm_postgis_queries.ipynb
-    ├── sql/
-    │   └── arizona/
-    │       ├── 01_osm_restaurant_distribution.sql
-    │       ├── 02_osm_park_area_by_county.sql
-    │       ├── 03_osm_restaurants_near_streets.sql
-    │       ├── 04_osm_railway_density_by_county.sql
-    │       └── 05_osm_county_amenity_synthesis.sql
-    ├── src/
-    │   └── setup_osm_postgis.py
-    ├── docker-compose.yml
-    ├── pyproject.toml
-    ├── uv.lock
-    └── README.md
+/
+├── .devcontainer/
+│   ├── Dockerfile
+│   └── devcontainer.json
+├── notebooks/
+│   ├── setup_osm_postgis.ipynb
+│   ├── osm_postgis_queries.ipynb
+│   └── osm_postgis_YOUR_AOI_NAME.ipynb
+├── sql/
+│   ├── arizona/
+│   │   ├── 01_osm_restaurant_distribution.sql
+│   │   ├── 02_osm_park_area_by_county.sql
+│   │   ├── 03_osm_restaurants_near_streets.sql
+│   │   ├── 04_osm_railway_density_by_county.sql
+│   │   └── 05_osm_county_amenity_synthesis.sql
+│   └── your_aoi_name/
+│       ├── your_query_1.sql
+│       ├── your_query_2.sql
+│       └── your_query_3.sql
+├── src/
+│   └── setup_osm_postgis.py
+├── .gitignore
+├── docker-compose.yml
+├── pyproject.toml
+├── uv.lock
+└── README.md
 
 ## Notes
 
