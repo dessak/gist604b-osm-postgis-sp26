@@ -11,14 +11,15 @@ This project uses provided walkthroughs to do analysis on features in Arizona OS
 ## Tools and Technologies
 - Codespace  
 - SQL  
-- PostGIS  
+- PostGIS
+- GeoPandas
 - Jupyter Notebooks
 
 ## What I did
 - Complete walkthroughs
 - Download OSM data from Geofabrik
 - Create SQL queries
-- Process data with PostGIS
+- Process data with PostGIS & GeoPandas
 
 ## How to view
 Results of analysis can be viewed at https://github.com/dessak/gist604b-osm-postgis-sp26/blob/main/notebooks/osm_postgis_oregon.ipynb or by opening the osm_postgis_oregon.ipynb notebook in the repositroy.
